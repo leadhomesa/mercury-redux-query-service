@@ -1,6 +1,6 @@
 {
   "name": "mercury-redux-query-service",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides a WithQuery component that provides the response from the specified URL as a child prop",
   "main": "dist/index.js",
   "scripts": {
