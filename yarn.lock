@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@leadhome/status@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@leadhome/status/-/status-1.0.3.tgz#d7b1c079de5033a1ad16b4ab7b1c381ce67d7363"
+  dependencies:
+    immutable "^3.8.2"
+    redux-actions "^2.3.0"
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"

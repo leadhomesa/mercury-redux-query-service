@@ -6,7 +6,7 @@ import {
 import {
     loadQuerySuccess
 } from './actions';
-import * as status from 'mercury-redux-status-service';
+import * as status from '@leadhome/status';
 import {$post, $get} from './fetch';
 
 function* onLoadQuery({key, url, query, validForSeconds}) {

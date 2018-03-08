@@ -1,5 +1,5 @@
 {
-  "name": "mercury-redux-query-service",
+  "name": "@leadhome/query",
   "version": "1.0.2",
   "description": "Provides a WithQuery component that provides the response from the specified URL as a child prop",
   "main": "dist/index.js",
@@ -15,10 +15,10 @@
   },
   "homepage": "https://github.com/leadhomesa/mercury-redux-query-service#readme",
   "dependencies": {
+    "@leadhome/status": "^1.0.3",
     "babel-preset-react": "^6.24.1",
     "immutable": "^3.8.2",
     "isomorphic-fetch": "^2.2.1",
-    "mercury-redux-status-service": "^1.0.3",
     "object-hash": "^1.2.0",
     "prop-types": "^15.6.1",
     "react": "^16.2.0",

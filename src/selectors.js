@@ -1,5 +1,5 @@
 import {DOMAIN} from './constants';
-import {selectors} from 'mercury-redux-status-service';
+import {selectors} from '@leadhome/status';
 import {fromJS} from "immutable";
 import {createSelector} from 'reselect';
 
