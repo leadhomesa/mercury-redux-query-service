@@ -1,0 +1,36 @@
+{
+  "name": "mercury-redux-query-service",
+  "version": "1.0.0",
+  "description": "Provides a WithQuery component that provides the response from the specified URL as a child prop",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/leadhomesa/mercury-redux-query-service.git",
+  "author": "Justus Burger <justusburger.co.za>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leadhomesa/mercury-redux-query-service/issues"
+  },
+  "homepage": "https://github.com/leadhomesa/mercury-redux-query-service#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.24.1",
+    "immutable": "^3.8.2",
+    "isomorphic-fetch": "^2.2.1",
+    "mercury-redux-status-service": "^1.0.3",
+    "object-hash": "^1.2.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "redux-actions": "^2.3.0",
+    "redux-saga": "^0.16.0",
+    "reselect": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
